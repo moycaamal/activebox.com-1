@@ -1,24 +1,87 @@
 body{
-	font-family: 'Raleway', sans-serif;
+	    font-family: "Raleway", sans-serif;
+	    font-weight: 400;
+	    color: #6c7279;
+	}
 
-}
-header{
-	background: url("../img/background_header.jpg") no-repeat;
-	height: 405px;
-	background-size: cover;
+	.banner{
+		background-image: url(img/background_header.jpg);
+	    background-position: center top;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    min-height: 750px;
+	}
+	
+	#header{
+		position: fixed;
+	    width: 100%;
+	    z-index: 999;
 
-}
-#logotipo{
-	margin-top: 40px;
-}
-header .nav-link{
-	font-size: 13px;
-	padding-top: 40px;
-}
-header .nav{
-	justify-content: flex-end;
-}
-header .nav-link:hover{
-	background: #fff;
-	color: #31344e;
-}
+	}
+	
+	#header .header-content {
+	    margin: 0 auto;
+	    max-width: 1170px;
+	    padding: 40px 0;
+	    width: 100%;
+	}
+	
+	#header .logo {
+    	float: left;
+	}
+
+	.container-fluid{
+		width: 100%;
+		padding-top: 40px;
+	    padding-left: 90px;
+	    padding-left: 90px;
+
+	}
+	
+	.navigation {
+    	float: right;
+	}
+	
+	.container {
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.banner-text {
+	    padding-top: 25%;
+	    text-align: center;
+	}
+	
+	.banner-text h1 {
+	    color: #fff;
+	    font-size: 65px;
+	    font-family: "Open Sans", sans-serif;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	}
+
+	.banner-text p {
+	    color: #fff;
+	    font-size: 22px;
+	    font-weight: 300;
+	    line-height: 1.5;
+	    margin-bottom: 80px;
+	}
+
+
+	.btn-large {
+	    padding: 15px 40px;
+	}
+	
+	.btn {
+	    background-color: #e84545;
+	    color: #fff;
+	    font-size: 13px;
+	    font-weight: 600;
+	    border: 0;
+	    border-radius: 2px;
+	    display: inline-block;
+	    text-transform: uppercase;
+	}
