@@ -1,11 +1,13 @@
-body{
+
+
+	body{
 	    font-family: "Raleway", sans-serif;
 	    font-weight: 400;
 	    color: #6c7279;
 	}
 
 	.banner{
-		background-image: url(img/background_header.jpg);
+		background-image: url(../img/background_header.jpg);
 	    background-position: center top;
 	    background-repeat: no-repeat;
 	    background-size: cover;
